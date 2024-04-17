@@ -1,0 +1,403 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: arial, sans-serif;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background: rgb(2,0,36);
+	background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header{
+	background-color: rgba(7, 12, 20, 0.6);
+	height: 100px;
+	position: fixed;
+	width: 100%;
+}
+nav ul{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+a{
+	text-decoration: none;
+	color: #fff;
+	line-height: 100px;
+	font-size: 1.5em;
+}
+#index{
+	background-image: url(../img/fondo365.jpeg);
+	background-size: cover;
+	height: 100vh;
+	background-attachment: fixed;
+}
+#index .container{
+	background-color: rgba(7, 12, 20, 0.7);
+	height: 100vh;
+	color: #fff;
+}
+.container{
+	background-color: rgba(7, 12, 20, 0.3);
+	height: 100vh;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#acerca-de{
+	background-image: url(..//img/paisaje7.avif);
+	background-size: cover;
+	height: 100vh;
+}
+
+.caja{
+	width: 400px;
+	height: 500px;
+	border-radius: 20px;
+	text-align: center;
+	box-shadow: 10px 5px 20px whitesmoke;
+	gap: 2em;
+	flex-direction: column;
+	display: flex;
+
+
+}
+.imge{
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imge img{
+	width: 50%;
+	object-fit: cover;
+	border-radius: 50%;
+
+}
+button{
+	width: 60%;
+	padding: 10px;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	background-color: rgba(12, 7, 20, 0.4);
+	margin: 0 auto;
+	background-color: white;
+}
+
+.contenedorcajas{
+	width: 100%;
+	height: 0 auto;
+	min-height: 100px;
+	display: flex;
+	justify-content: center;
+
+
+}
+
+.caja2{
+	width: 400px;
+	height: 500px;
+	float: right;
+	border-radius: 20px;
+	text-align: center;
+	box-shadow: 10px 5px 20px whitesmoke;
+	gap: 2em;
+	flex-direction: column;
+	display: flex;
+
+}
+.caja3{
+	width: 400px;
+	height: 500px;
+	float: right;
+	border-radius: 20px;
+	text-align: center;
+	box-shadow: 10px 5px 20px whitesmoke;
+	gap: 2em;
+	flex-direction: column;
+	display: flex;
+}
+.servicios{
+	width: 400px;
+	height: 500px;
+	float: right;
+	border-radius: 20px;
+	text-align: center;
+	box-shadow: 10px 5px 20px whitesmoke;
+	gap: 2em;
+	flex-direction: column;
+	display: flex;
+}
+
+#acerca-de .container{
+	background-color: rgba(7, 12, 20, 0.7);
+	height: 100vh;
+	color: #fff;
+}
+#servicios{
+	background-image: url(../img/paisaje3.jpg);
+	background-size: cover;
+	height: 100vh;
+
+}
+#servicios .container{
+	background-color: rgba(7, 12, 20, 0.7);
+	height: 100vh;
+	color: #fff;
+}
+#contacto{
+	background-image: url(../img/paisaje5.avif);
+	background-size: cover;
+	height: 100vh;
+}
+#contacto .container{
+	background-color: rgba(7, 12, 20, 0.7);
+	height: 100vh;
+	color: #fff;
+}
+
+.container_contact{
+	text-align: center;
+	width: 500px;
+	height: 500px;
+	border-radius: 5px;
+	backdrop-filter: blur(2px);
+	display: flex;
+	flex-direction: column;
+	display: grid;
+	box-shadow: 5px 5px 30px;
+}
+.container_contact h2{
+	font-size: 20px;
+	font-family: tahoma;
+	
+}
+
+form{
+	width: 80%;
+	margin: 20PX auto;
+}	
+
+form input{
+	width: 80%;
+	background-color: rgba(7, 12, 20, 0.4);
+	color: #fff;
+	padding: 5px 2px;
+	font-size: 1.2em;
+	border-radius: 10px;
+}
+
+textarea{
+	background-color: rgba(7, 12, 20, 0.4);
+	color: #fff;
+	padding: 5px 2 px;
+	border-radius: 5px;
+}
+
+form input[ type="submit"]{
+	width: 100%;
+	background-color: red;
+	cursor: pointer;
+}
+
+.caja3 p{
+	font-weight: 20px;
+	color: red;
+}
+.caja2 p{
+	font-weight: 20px;
+	color: red;
+}
+.caja p{
+	font-weight: 20px;
+	color: red;
+}
+.container-pie{
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+
+.direccion{
+	width: 20%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 300px;
+
+}
+
+.ubicacion{
+	width: 200px;
+	height: 200px;
+	float: right;
+	margin-top: -100px;
+}
+
+iframe{
+	width: 200px;
+	height: 200px;
+	margin-left: 900px;
+
+}
+
+
+.redes{	
+	color: white;
+	display: flex;
+	justify-content: center;
+	display: flex;
+	white-space: 10px;
+	margin-bottom: 5px;
+}
+.info{
+	width: 100%;
+	background-color: red;
+	padding: 5px;
+	color: white;
+}
+.container2{
+	display: flex;
+
+}
+.titulo h1{
+	font-size: 3em;
+}
+
+.titulo{
+	animation: entrada_texto 2s ease-in-out 1;
+}
+
+@keyframes entrada_texto{
+	from{
+		transform: translateX(1000px);
+	}
+	to{
+		transform: translateX(10px);
+	}
+}
+
+.imeges{
+	filter: drop-shadow(5px 5px 20px skyblue);
+	animation: agrandar-imagen 2s ease-in-out 1;
+	float: right;
+	
+}
+
+
+
+@keyframes agrandar-imagen{
+	0%{
+		transform: scale(1.0);
+
+	}
+	50%{
+		transform: scale(1.8);
+	}
+	100%{
+		transform: scale(1.0);
+	}
+}
+
+@media(max-width:500px){
+	body{
+		width: 1200px;
+	}
+	.container-pie{
+		width: 1200px;
+	}
+	#inicio{
+		width: 1200px;
+		height: 1000px;
+		display: flex;
+		flex-direction: column;
+	}
+	#acerca-de{
+		width: 1200px;
+		height: 2000px;
+		display: flex;
+		flex-direction: column;
+	}
+	#inicio .container{
+		margin-top: -30px;
+		text-align: center;
+		
+	}
+	#acerca-de .container{
+		width: 1200px;
+		height: 1500px;
+		display: flex;
+		flex-direction: column;
+	}
+	#servicios{
+		width: 1200px;
+		height: 1500px;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.imeges{
+		display: flex;
+
+	}
+	.caja{
+		width: 800px;
+		height: 700px;
+		text-align: center;
+	}
+	.caja2{
+		width: 800px;
+		height: 700px;
+		text-align: center;
+	}
+	.caja3{
+		width: 800px;
+		height: 700px;
+		text-align: center;
+	}
+	.contenedorcajas{
+		flex-direction: column;
+		height: 500px;
+		display: flex;
+		align-items: center;
+		margin-top: 500px;
+	}
+	.container_contact{
+		width: 700px;
+		height: 800px;
+	}
+	button{
+		width: 80px;
+		height: 40px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		font-size: 12px;
+	}
+	.caja3 p{
+		text-align: center;
+		font-size: 20px;
+	}
+	.caja2 p{
+		font-size: 20px;
+		color: red;
+	}
+	.caja p{
+		font-size: 20px;
+		color: red;
+	}
+}
